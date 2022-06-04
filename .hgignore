@@ -5,14 +5,3 @@ nbproject/private/
 ^.hgtip
 ^.bridge2
 .DS_Store
-
-# Package Files #
-*.jar
-*.war
-*.ear
-
-target/*
-*target*
-*.iml
-.idea/*
-*.DS_Store
