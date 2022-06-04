@@ -783,8 +783,8 @@ public class HashMap<K,V> extends AbstractMap<K,V>
      * elements from each bin must either stay at same index, or move
      * with a power of two offset in the new table.
      * <p>
-     * 为什么需要扩容？
-     * 为了解决哈希冲突导致的链化影响查询效率问题，扩容可以缓解该问题
+     * Q：为什么需要扩容？
+     * A：为了解决哈希冲突导致的链化影响查询效率问题，扩容可以缓解该问题
      *
      * @return the table
      */
